@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scotty Says</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Hello Fake News</h1>
+    </div>
+    <div class="scotty card">
+      <h1 id="title">Title Goes Here</h1>
+      <div class="row">
+        <img src="avatar.png" alt="Scott Farquhar" class="avatar" id="avatar" />
+        <div class="col">
+          <p>Created by <span id="name">Scott Farquhar</span></p>
+          <p>
+            Last updated <span id="date">Dec 11, 2020</span> ·
+            <span id="read">1 min read</span> ·
+            <img src="graph2.png" alt="graph icon" class="graph" /> Analytics
+          </p>
+        </div>
+      </div>
+      <div class="content" id="content">
+        <p>You could really say anything here.</p>
+        <p>Anything at all.</p>
+      </div>
+    </div>
+    <form onsubmit="" class="card">
+      <div>
+        <div class="option">
+          <label for="title-field">Title</label>
+          <input type="text" name="title" id="title-field" />
+        </div>
+        <div class="option">
+          <label for="name-field">Name</label>
+          <input type="text" name="name" id="name-field" />
+        </div>
+        <div class="option">
+          <label for="avatar-field">Avatar</label>
+          <input type="text" name="avatar" id="avatar-field" />
+        </div>
+        <div class="option">
+          <label for="date-field">Date</label>
+          <input type="text" name="date" id="date-field" />
+        </div>
+        <div class="option">
+          <label for="read-field">Time</label>
+          <input type="text" name="read" id="read-field" />
+        </div>
+      </div>
+      <div class="option option-top">
+        <label for="content-field">Content</label>
+        <textarea
+          name="content"
+          id="content-field"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <!-- <div class="option">
+      <input type="button" value="Generate">
+    </div> -->
+    </form>
+    <!-- <img src="#" alt="output image" class="output" id="output-img"> -->
+  </body>
+</html>

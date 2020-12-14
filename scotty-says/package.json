@@ -1,0 +1,8 @@
+{
+  "name": "scotty-says",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luke Batchelor <lbatchelor@atlassian.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

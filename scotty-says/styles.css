@@ -1,0 +1,109 @@
+
+
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffd3f757;
+}
+p {
+  margin: 4px;
+  font-size: 16px;
+  color: rgb(107, 119, 140);
+  line-height: 1.5;
+}
+h1 {
+  font-weight: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 35px;
+  margin: 16px 8px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 16px auto;
+  padding: 16px;
+  width: 480px;
+  border: 1px solid #2196f3;
+  border-radius: 8px;
+  background: white;
+}
+.card {
+  width: 600px;
+  margin: 16px auto;
+  padding: 16px;
+  border: 1px solid #2196f3;
+  border-radius: 8px;
+  background: white;
+}
+.scotty {
+  display: flex;
+  flex-direction: column;
+
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  margin: 8px;
+}
+.graph {
+  height: 16px;
+  width: 16px;
+}
+.content {
+  margin-top: 16px;
+  font-size: 1em;
+  line-height: 1.714;
+  font-weight: normal;
+  margin-bottom: 0px;
+  letter-spacing: -0.005em;
+  margin: 12px 0 0 0;
+  color: rgb(23, 43, 77);
+}
+.content p {
+  font-size: 1em;
+  line-height: 1.714;
+  font-weight: normal;
+  color: rgb(23, 43, 77)
+}
+.option {
+  margin: 8px 0;
+  justify-content: space-between;
+}
+.option label {
+  display: block;
+  margin-bottom: 8px;
+}
+.option.option-top {
+  display: block;
+}
+img.output {
+  display: none;
+}
+img.output-show {
+  display: block
+}
+label[for="content-field"] {
+  display: block;
+  margin-bottom: 8px;
+}
+input,textarea{
+  padding: 8px;
+  border-radius: 8px;
+}
